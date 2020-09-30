@@ -11,7 +11,9 @@ pip install --default-timeout=100 numpy scipy scikit-learn opencv-contrib-python
 - $ virtualenv env-name
 - => Python 3
 - $ python3 -m venv env-name
-- $ source env-name/bin/activate
+* =>> Activate Virtual Environment
+- $ source env-name/bin/activate <= linux
+- $ env-name\Scripts\activate <= windows
 - (env-name) $
 - => Install requirements :
 - (env-name) $ pip install -r requirements.txt
