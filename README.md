@@ -17,4 +17,5 @@ pip install --default-timeout=100 numpy scipy scikit-learn opencv-contrib-python
 - (env-name) $
 - => Install requirements :
 - (env-name) $ pip install -r requirements.txt
-
+* =>> Deactivate Virtual Environment
+- $ deactivate
